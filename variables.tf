@@ -1,6 +1,5 @@
 #not providing any default value , forcing user to provide value
 variable "cidr_block" {
-
 }
 #this is optional , because its is good to provide tags
 variable "common_tags" {
@@ -8,6 +7,8 @@ variable "common_tags" {
 }
 #not providing any default value , forcing user to provide value.This is required
 variable "project_name" {  
+}
+variable "env" {
 }
 
 #this is optional , because we gave default value
